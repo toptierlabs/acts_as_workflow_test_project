@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'faker'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
@@ -44,4 +45,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'acts_as_workflow', :path => '/Users/TopTierlabs/Desktop/proyectos/plugins/acts_as_workflow'
+gem 'act_as_workflow', :path => '/Users/TopTierlabs/Desktop/proyectos/plugins/act_as_workflow'
+
+gem 'pg'

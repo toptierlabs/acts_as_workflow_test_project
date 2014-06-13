@@ -1,7 +1,7 @@
 PATH
-  remote: /Users/TopTierlabs/Desktop/proyectos/plugins/acts_as_workflow
+  remote: /Users/TopTierlabs/Desktop/proyectos/plugins/act_as_workflow
   specs:
-    acts_as_workflow (0.0.1)
+    act_as_workflow (0.0.1)
       rails (~> 4.0.0)
 
 GEM
@@ -42,6 +42,8 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    faker (1.2.0)
+      i18n (~> 0.5)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -57,6 +59,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.10.1)
+    pg (0.17.1)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -113,10 +116,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acts_as_workflow!
+  act_as_workflow!
   coffee-rails (~> 4.0.0)
+  faker
   jbuilder (~> 1.2)
   jquery-rails
+  pg
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc

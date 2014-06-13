@@ -1,0 +1,11 @@
+<div class="column">
+  <h1>Graph</h1>
+  <%= render partial: 'graph' %>
+</div>
+<div class="column">
+  <h1>Current user steps</h1>
+  <%= select_tag 'user_id', options_for_select(@users_collection) %>
+
+  <ul id="node_description_container">
+  </ul>
+</div>

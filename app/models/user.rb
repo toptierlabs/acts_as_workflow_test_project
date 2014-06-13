@@ -1,3 +1,9 @@
 class User < ActiveRecord::Base
-  acts_as_workflow
+  has_many :listings
+
+  def role
+    self[:role].to_sym
+  end
 end
+
+
